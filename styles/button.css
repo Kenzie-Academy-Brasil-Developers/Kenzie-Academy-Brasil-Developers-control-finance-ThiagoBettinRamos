@@ -1,0 +1,75 @@
+#register{
+    margin-right: 10px;
+    width: 164px;
+    height: 32px;
+    font-size: var(--font-weight-3);
+    color: var(--color-brand-3);
+    background-color: var(--color-brand-1);
+    border: transparent;
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+#register:hover{
+    transform: scale(1.08);
+}
+
+.category-button{
+    cursor: pointer;
+    padding: 2px;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--font-weight-1);
+    border: 2px solid var(--color-brand-3);
+    border-radius: var(--radius-2);
+}
+
+.trash{
+    border-radius: var(--radius-2);
+    border: none;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    background-image: url("../assets/trash.png");
+}
+.trash:hover{
+    box-shadow: 2px 2px 5px var(--dark-grey);
+}
+
+#close{
+    width: 30px;
+    height: 30px;
+    color: var(--color-brand-3);
+    background-color: var(--color-brand-1);
+    border: transparent;
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+#submit{
+    margin-right: 10px;
+    width: 140px;
+    height: 32px;
+    font-size: var(--font-weight-3);
+    color: var(--color-brand-3);
+    background-color: var(--color-brand-1);
+    border: transparent;
+    border-radius: var(--radius-1);
+    cursor: pointer;
+    position: relative;
+    right: 0;
+}
+
+.category-button-selected{
+    cursor: pointer;
+    padding: 2px;
+    width: 100px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: var(--font-weight-1);
+    border: 2px solid var(--color-brand-1);
+    border-radius: var(--radius-2);
+}

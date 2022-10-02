@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Control Finance</title>
+    <link rel="shortcut icon" href="/assets/favicon.ico" type="image/x-icon">
+    <meta name="description" content="Control Finance - Seu controle financeiro">
+    <link rel="stylesheet" href="./styles/globalStyles.css">
+    
+    <link rel="stylesheet" href="./styles/index.css" >
+    <link rel="stylesheet" href="./styles/button.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/modal.css" >
+    <link rel="stylesheet" href="./styles/input.css" >
+</head>
+<body>
+    <header class="container">
+        <div class="name">
+            <h2 class="control">Control</h2>
+            <h2>Finance</h2>
+        </div>
+        <button id="register">Registrar novo valor</button>
+    </header>
+    <main id="app">
+        <div>
+            <section class="indice">
+                <h3>Resumo financeiro</h3>
+                <a class="category-button" data-filter-category="Todos">Todos</a>
+                <a class="category-button" data-filter-category="Entrada">Entrada</a>
+                <a class="category-button" data-filter-category="Saída">Saída</a>
+            </section>
+            <section class="soma">
+                <h3>Soma dos valores</h3>
+                <span id="value-total"></span>
+            </section>
+            <section class="items">
+                <ul id="ul-class"></ul>
+            </section>
+        </div>
+
+    </main>
+    <script src="./scripts/modal.js"></script>
+    <script src="./scripts/valuesData.js"></script>
+    <script src="./scripts/index.js"></script>
+    <script src="./scripts/filter.js"></script>
+</body>
+</html>

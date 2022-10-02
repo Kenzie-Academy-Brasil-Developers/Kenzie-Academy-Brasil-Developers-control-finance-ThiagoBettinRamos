@@ -1,0 +1,25 @@
+/* Desenvolva a estilização da sua página aqui */
+#app{
+    max-width: 43rem;
+    height: 31.25rem;
+    margin-left: 30.438rem;
+    
+}
+.indice{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 8px;
+}
+.soma{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    width: 43.125rem;
+    height: 45px;
+    padding: 4px;
+    border-radius: var(--radius-1);
+    border: 2px solid var(--color-brand-3);
+    background-color: var(--color-grey-5);
+}

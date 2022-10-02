@@ -1,0 +1,10 @@
+.name{
+    display: flex;
+    margin: 2px;
+}
+.name h2{
+    margin: 2px;
+}
+.control{
+    color: var(--color-brand-1);
+}
